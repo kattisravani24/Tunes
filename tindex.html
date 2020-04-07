@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "myModule">
+  <head>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tunes</title>
+    <!-- Fav-Icon -->
+    <link rel="icon" href="images/tfav.png" type="image/gif" sizes="16x16">
+    <!-- Font-Awesome-Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/tstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+  </head>
+  <body>
+    <section class="banner">
+      <header>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs">
+              <ul class="nav navbar-nav navbar-right nav-ul">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#amg-up">YOU GET</a></li>
+                <li><a href="#play-up">PLAYLIST</a></li>
+                <li><a href="#alubum-up">ALBUMS</a></li>
+                <li><a href="#events-up">EVENTS</a></li>
+                <li><a href="#gang-up">OUR TEAM</a></li>
+                <li><a href="#contact-up">CONTACT</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+            
+          </div><!-- /.container-fluid -->
+        </nav>
+      </header>
+      <div class="tunes">
+        <span>
+          <a href="#">
+            TUNES
+          </a>
+        </span>
+      </div>
+      <div class="rock">
+        <h2 style="color: #FF56E7;">ROCK MUSIC</h2>
+        <h4 style="color: #FFBFD7;">Hello Welcome To Tunes Music</h4>
+      </div>
+    </section>
+
+    <section class="awesome">
+      <h2>The Awesome Music Bootstrap Theme</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <a href="#play-up"><button class="play-btn">PLAYLIST</button></a>
+    </section>
+
+    <section class="main-sec">
+      <div  id="amg-up">
+        <div class="text">
+          <h1>What You Get</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="a-m-g">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-4">
+                  <span class="glyphicon glyphicon-briefcase"></span>
+                  <h4>ALBUMS</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.
+                  </p>
+              </div>
+              <div class="col-sm-4">
+                <span class="glyphicon glyphicon-pencil"></span>
+                  <h4>MUSIC PLAYLIST</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+              </div>
+              <div class="col-sm-4">
+                <span class="glyphicon glyphicon-bullhorn"></span>
+                  <h4>GALLERY</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="play-up">
+        <div class="text">
+          <h1>Playlist</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="playlist">
+          <div class="row">
+            <div class="col-sm-4 music">
+              <img src="images/music.png">
+            </div>
+            <div class="col-sm-4 song-list">
+              <div class="panel panel-sucess audio-panel">
+                <audio id="audio" autoplay preload="auto" tabindex="0" controls>
+                  <source src="audio/emannavo.mp3">
+                </audio>
+              </div>
+              <ul id="playlist" class="audio-ul">
+                <li class="active list-group-item">
+                  <a href="audio/adiga.mp3">
+                    Adiga Adiga
+                  </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="audio/andamaina.mp3">
+                      Andamaina
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="audio/ek.mp3">
+                      Ek Dujek Vaasthey
+                    </a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="audio/emannavo.mp3">
+                      Emannavo
+                    </a>
+                </li>   
+                <li class="list-group-item">
+                    <a href="audio/enthalo.mp3">
+                      Enthalo
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="audio/manasuna.mp3">
+                      Manasuna adho raagam
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="audio/nilavade.mp3">
+                      Nilavadey
+                    </a>
+                </li> 
+                <li class="list-group-item">
+                    <a href="audio/oorikeala.mp3">
+                      Oorike Ala
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="audio/tere.mp3">
+                      Tere Sang Yaara
+                    </a>
+                </li>                
+              </ul>
+            </div>
+            <div class="col-sm-4" ng-controller = "myController">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Likes</th>
+                    <th>Dislikes</th>
+                    <th>Like/ Dislike</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat=" song in songs ">
+                    <td>{{ song.name }}</td>
+                    <td>{{ song.likes }}</td>
+                    <td>{{ song.dislikes }}</td>
+                    <td>
+                      <button class="btn" ng-click="incrementLikes(song)">Like</button>
+                      <button class="btn" ng-click="incrementDislikes(song)">Dislike</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="alubum-up">
+        <div class="text">
+          <h1>Our Albums</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="album-main-sec">
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Earth Alive</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">39</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Love Life</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">15</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Light Blue</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">39</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Back Street</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">15</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container">
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Rock N Roll</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">39</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="album-sec">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h4>Golden Days</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing eliteger gravida velit quis dolo Pellentesque elit tortor
+                      </p> 
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="pull-right">
+                        <span class="symbol">$</span>
+                        <span class="no">15</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="events-up">
+        <div class="text">
+          <h1>Events</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="events-div">
+          <div class="row">
+            <div class="col-sm-3">
+              <img src="images/01.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/02.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/03.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/04.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <img src="images/05.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/06.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/07.jpg">
+            </div>
+            <div class="col-sm-3">
+              <img src="images/08.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="shows-up">
+        <div class="text shows-sec">
+          <h1>Upcoming Shows</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="shows-sec">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/pic2.jpg">
+              </div>
+              <div class="col-sm-6 our-tours">
+                <h3>OUR TOURS</h3>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="tno">16</span>
+                    <p class="mon">Feb</p>
+                  </div>
+                  <div class="col-sm-10">
+                    <span class="country">NewYork, US - </span><span class="place">Music Area</span>
+                    <p class="bt">BUY TICKET</p>
+                  </div>
+                </div>  
+                <hr>            
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="tno">22</span>
+                    <p class="mon">Mar</p>
+                  </div>
+                  <div class="col-sm-10">
+                    <span class="country">Delhi, Ind - </span><span class="place">Open Theater</span>
+                    <p class="bt">BUY TICKET</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="tno">12</span>
+                    <p class="mon">April</p>
+                  </div>
+                  <div class="col-sm-10">
+                    <span class="country">Texas, US - </span><span class="place">Eden Gardens</span>
+                    <p class="bt">BUY TICKET</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="tno">26</span>
+                    <p class="mon">April</p>
+                  </div>
+                  <div class="col-sm-10">
+                    <span class="country">England, UK - </span><span class="place">BNK Stadium</span>
+                    <p class="bt">BUY TICKET</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="tno">10</span>
+                    <p class="mon">June</p>
+                  </div>
+                  <div class="col-sm-10">
+                    <span class="country">Tokiyo, Japan - </span><span class="place">KMT Grounds</span>
+                    <p class="bt">BUY TICKET</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="gang-up">
+        <div class="text">
+          <h1>Our Gang</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="container">
+          <div class="gang-sec">
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="images/team-1.jpg">
+                <h3>Jonh Dow</h3>
+                <span>Founder</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <div class="col-sm-3">
+                <img src="images/team-2.jpg">
+                <h3>Markus Linn</h3>
+                <span>Music</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <div class="col-sm-3">
+                <img src="images/team-3.jpg">
+                <h3>Chris Jemes</h3>
+                <span>Singer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a>
+              </div>
+              <div class="col-sm-3">
+                <img src="images/team-4.jpg">
+                <h3>Vintes Mars</h3>
+                <span>Singer</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-carousel">
+        <!-- <div class="container"> -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis consectetur adipiscing elit.. mattis consectetur adipiscing elit.."
+                </p>
+                <h5>CHRIS MENTSL</h5>
+              </div>
+
+              <div class="item">
+                <p>
+                  "Praesent eget risus vitae massa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis consectetur adipiscing elit.."
+                </p>
+                <h5>KRISTEAN VELNLY</h5>
+              </div>
+            
+              <div class="item">
+                <p>
+                  "Consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis consectetur adipiscing elit.
+                </p>
+                <h5>MARKUS DENNY</h5>
+              </div>
+
+              <div class="item">
+                <p>
+                  "Vitae massa semper aliquam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis consectetur adipiscing elit.."
+                </p>
+                <h5>JOHN DOE</h5>
+              </div>
+            </div>    
+          </div>
+        <!-- </div> -->
+      </div>
+      <div id="contact-up">
+        <div class="text">
+          <h1>Contact Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="container">
+          <div class="contact-sec">
+            <div class="row">
+              <div class="col-sm-offset-2 col-sm-8">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter Name...">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter Email Address...">
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Message..."></textarea>
+                  </div>
+                  <div style="text-align: center;">
+                    <button type="button" class="btn">SEND</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="scroll-up">
+      <a href="#"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <script type="text/javascript">
+      var audio;
+      var playlist;
+      var tracks;
+      var current;
+
+      init();
+      function init(){
+          current = 0;
+          audio = $('#audio');
+          playlist = $('#playlist');
+          tracks = playlist.find('li a');
+          len = tracks.length - 1;
+          audio[0].volume = 0.5;
+          audio[0].pause();
+          playlist.find('a').click(function(e){
+              e.preventDefault();
+              link = $(this);
+              current = link.parent().index();
+              run(link, audio[0]);
+          });
+          audio[0].addEventListener('ended',function(e){
+              current++;
+              if(current == len){
+                  current = 0;
+                  link = playlist.find('a')[0];
+              }else{
+                  link = playlist.find('a')[current];    
+              }
+              run($(link),audio[0]);
+          });
+        }
+        function run(link, player){
+                player.src = link.attr('href');
+                par = link.parent();
+                par.addClass('active').siblings().removeClass('active');
+                audio[0].load();
+                audio[0].play();
+        }
+    </script>
+    <script type="text/javascript">
+      var myApp = angular
+        .module("myModule",[])
+        .controller("myController" , function ($scope){
+            var songs =[
+              { name:"Adiga Adiga", likes:0, dislikes:0},
+              { name:"Andamaina", likes:0, dislikes:0},
+              { name:"Ek Dujek Vaasthey", likes:0, dislikes:0},
+              { name:"Emannavo", likes:0, dislikes:0},
+              { name:"Enthalo", likes:0, dislikes:0},
+              { name:"Manasuna", likes:0, dislikes:0},
+              { name:"Nilavadey", likes:0, dislikes:0},
+              { name:"Oorike Ala", likes:0, dislikes:0},
+              { name:"Tere Sang Yaara", likes:0, dislikes:0}
+            ];
+
+            $scope.songs = songs;
+
+            $scope.incrementLikes = function(song){
+              song.likes++;
+            }
+
+            $scope.incrementDislikes = function(song){
+              song.dislikes++;
+            }
+        });
+    </script>
+  </body>
+</html>

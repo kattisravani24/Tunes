@@ -1,0 +1,590 @@
+.row 
+{
+	padding: 0;
+	margin: 0;
+}
+ul li a
+{
+	color: #fff;
+}
+a:hover 
+{ 
+	text-decoration:none;
+}
+*
+{
+	box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.banner
+{
+	position: relative;
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: center top;
+    background-repeat: no-repeat;
+	height: 750px;
+	padding: 3%;
+}
+.nav-ul
+{
+	padding: 10px 10px 0 0;
+}
+.navbar-default .nav-ul li a
+{
+	color: #ddd;
+	padding: 0 20px;	
+	font-weight: bold;
+}
+.navbar-default .nav-ul li a:hover
+{
+	color: #E1395C;
+}
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+.tunes
+{
+	position: absolute;
+	width: 160px;
+	height: 140px;
+	background-color: #000;
+	top: 0;
+	padding-top: 80px;
+	text-align: center;
+}
+.tunes a
+{
+	color: #E7185C;
+	background-color: #000;
+	font-size: 25px;
+}
+.rock
+{
+	position: absolute;
+	padding: 40px;
+	top: 320px;
+	left: 200px;
+	font-weight: bold;
+	background-color: rgba(187, 5, 28, 0.14);
+}
+.rock h2
+{
+	padding-bottom: 20px;
+}
+.awesome
+{
+	padding: 80px 330px;
+	background-color: #000;
+	text-align: center;
+}
+.awesome h2
+{
+	color: #E7185C;
+	padding-bottom: 20px;
+}
+.awesome p
+{
+	color: #787878;
+}
+.play-btn
+{
+	margin-top: 30px;
+	padding: 16px 45px;
+	font-weight: bold;
+	color: #eee;
+	background-color: transparent;
+	border: solid 1px grey;
+	border-radius: 0px;
+}
+.play-btn:hover
+{
+	background-color: #E7185C;
+	color: #fff;
+	border-color: transparent;
+}
+.play-btn:focus
+{
+	outline: none;
+}
+.main-sec
+{
+	background-color: #0C0C0C;
+	color: #55595F;
+}
+.text
+{
+	text-align: center;
+	padding: 40px 380px;
+}
+.text h1
+{
+	color: #fff;
+	padding-bottom: 10px;
+}
+.text p
+{
+}
+.a-m-g, .gang-sec
+{
+	text-align: center;
+}
+.a-m-g .glyphicon
+{
+	font-size: 60px;
+	padding-bottom: 20px;
+	color: #FD4166;
+}
+.album-main-sec .row
+{
+	margin: 20px 0;
+}
+.album-sec
+{
+	background-color: #000;
+	padding: 10px;
+}
+#amg-up
+{
+	padding: 100px 0;
+}
+.a-m-g h4,.album-sec h4
+{
+	color: #fff;
+}
+.a-m-g .col-sm-4
+{
+	padding: 0 63px;
+}
+.album-sec .symbol
+{
+	font-size: 17px;
+}
+.album-sec .no
+{
+	font-size: 25px;
+}
+.album-sec span
+{
+	color: #FD4166;
+}
+.album-sec p
+{
+	text-align: justify;
+}
+.album-sec:hover h4
+{
+	color: #FD4166;
+}
+.album-sec:hover
+{
+	background-color: #0C0C0C;
+	border: solid 4px #000;
+}
+.events-div img
+{
+	width: 100%;
+}
+.events-div
+{
+	padding-bottom: 100px;
+}
+.events-div .col-sm-3
+{
+	padding: 0;
+}
+.gang-sec img
+{
+	width: 50%;
+	border-radius: 50%;
+	border: solid 4px grey;
+}
+.gang-sec h3, .gang-sec p
+{
+	padding: 10px 0;
+}
+.gang-sec h3
+{
+	color: #454545;
+}
+.gang-sec span
+{
+	color: #fff;
+}
+.gang-sec i
+{
+	color: #E7185C;
+	font-size: 12px;
+	border: solid 1px #E7185C;
+	padding: 10px;
+}
+.gang-sec i:hover
+{
+	background-color: #E7185C;
+	color: #fff;
+	border-color: transparent;
+}
+.shows-sec
+{
+	background-color: #000;
+	padding-bottom: 60px;
+}
+.shows-sec img
+{
+	width: 100%;
+}
+.shows-sec h3
+{
+	color: #fff;
+	padding: 0 0 20px 15px;
+}
+.tour-list {
+    padding: 0px 0 70px;
+}
+.our-tours .row
+{
+	/*border-bottom: solid 1px grey;*/
+}
+.tno, .country, .mon
+{
+	color: #fff;
+}
+.tno
+{
+    font-size: 30px;
+}
+.country
+{
+	font-size: 20px;
+}
+.place
+{
+	font-size: 18px;
+}
+.mon
+{
+	font-size: 17px;
+}
+.bt
+{
+	font-size: 12px;
+	color: #C2185C;
+}
+.carousel{
+	background-color: #000;
+}
+.carousel-inner {
+    padding: 0 220px;
+    text-align: center;
+}
+.carousel {
+	margin-top: 40px;
+    padding: 130px 0;
+    }
+.carousel-indicators {
+    bottom: 30px;
+}
+.carousel-indicators li
+{
+	border: none;
+	background-color: #343434;
+}
+.carousel-indicators li:hover, .carousel-indicators .active
+{
+	border: transparent;
+	background-color: #fff;
+	width: 10px;
+	height: 10px;
+}
+#contact-up
+{
+	padding-bottom: 70px;
+}
+#contact-up .form-control 
+{
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	height: 54px;
+}
+#contact-up textarea 
+{
+	width: 100%;
+	height: 150px;
+	padding: 6px 12px;
+  resize: none;
+  line-height: 1.42857143;
+  color: #555;
+}
+#contact-up textarea:focus {
+    outline: none;
+}
+#contact-up button
+{
+  background-color: #E7185C;
+  color: #fff;
+  border-radius: 2px;
+  padding: 12px 40px;
+}
+#contact-up button:hover 
+{
+    background: #c10040;
+}
+.music
+{
+    height: 400px;
+    text-align: center;
+}
+.music img
+{
+    width: 80%; 
+    height: 100%;
+}
+.song-list
+{
+    padding: 20px 0;
+}
+.audio-panel, .audio-ul
+{
+    width: 80%;
+}
+audio
+{
+    width: 100%;
+}
+.audio-ul .list-group-item, .audio-ul .list-group-item:hover
+{
+    background: transparent;
+    border: none;
+}
+.audio-ul .list-group-item:hover a
+{
+    color: #fff;
+    text-decoration:none;
+}
+.audio-ul .list-group-item.active a
+{
+    text-decoration:none;
+    color: #fff;
+}
+.audio-ul .list-group-item.active
+{
+    color: #000;
+    background-color: #E7185C;
+
+}
+.scroll-up i
+{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	border: solid 1px #fff;
+	border-radius: 50%;
+	color: #E7185C;
+	background-color: #000;
+	padding: 10px; 
+}
+.scroll-up i:hover
+{
+	background-color: #E7185C;
+	color: #000;
+	border-color: #000;
+}
+
+/*Media Queries*/
+@media (min-width: 320px) and (max-width: 640px)
+{
+	h1
+	{
+		font-size: 20px;
+	}
+	h2
+	{
+		font-size: 18px;
+	}
+	p{
+		font-size: 12px;
+	}
+	.nav-ul
+	{
+		text-align: right;
+	}
+	.navbar-collapse
+	{
+		background-color: #000;
+	}
+	.banner
+	{
+		height: 120px;
+	}
+	.tunes
+	{
+		width: 90px;
+		height: 60px;
+		padding-top: 20px;
+	}
+	.navbar-default .navbar-toggle:hover 
+	{
+     background-color: transparent; 
+	}
+	.navbar-default .navbar-toggle {
+	     border:none;
+	}
+	.navbar-toggle .icon-bar 
+	{
+	    width: 15px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+	{
+	     border:none;
+	}
+	.tunes a
+	{
+		font-size: 20px;
+	}
+	.rock
+	{
+		padding: 10px;
+	    top: 65px;
+	    left: 10px;
+	}
+	.rock h2
+	{		
+		padding-bottom: 5px;
+	}
+	.rock h4
+	{
+		font-size: 14px;
+	}
+	.awesome
+	{
+		padding: 20px 10px;
+	}
+	#amg-up 
+	{
+    padding: 10px 0;
+	}
+	audio, .audio-ul, .audio-panel
+    {
+        width: 100% !important;
+    }
+    .music
+    {
+        height: auto;
+    }
+    .song-list
+    {
+        padding: 0 20px;
+    }
+	.play-btn 
+	{
+	    margin-top: 15px;
+	    padding: 6px 15px;
+	}
+	.a-m-g .glyphicon
+	{
+		font-size: 30px;
+	}
+	.text, .a-m-g .col-sm-4
+	{
+		padding: 15px;
+	}
+	.events-div .col-sm-3
+	{
+		padding: 10px;
+	}
+	.gang-sec .col-sm-3
+	{
+		margin: 15px;
+	}
+	.gang-sec .fa-facebook
+	{
+		padding: 10px 14px;
+	}
+	.events-div 
+	{
+	    padding-bottom: 10px;
+	}
+	.carousel 
+	{
+	    margin-top: 20px;
+	    padding: 80px 0;
+	}
+	.carousel-inner
+	{
+		padding: 0 20px;
+	}
+	.carousel-inner h5
+	{
+		margin-top: 10px;
+	}
+	#contact-up .form-control
+	{
+		height: 35px;
+	}
+	#contact-up
+	{
+		padding-bottom: 20px;
+	}
+	.scroll-up i
+	{
+		font-size: 15px;
+		padding: 6px;
+	}
+}
+@media (min-width: 640px) and (max-width: 768px) 
+{
+	.banner
+	{
+		height: 300px;
+	}
+	.tunes
+	{
+		padding-top: 60px;
+		height: 110px;
+		width: 140px;
+	}
+	.navbar-default .nav-ul li a {
+		padding: 0 5px;
+	}
+	.rock 
+	{
+	    left: 140px;
+	    padding: 10px;
+	    top: 130px;
+	}
+	.nav-ul li a
+	{
+		font-size: 12px;
+	}
+	.awesome, .text
+	{
+	    padding: 20px;
+	}
+	.a-m-g .col-sm-4 
+	{
+	    padding: 0 13px;
+	}
+	#amg-up 
+	{
+	  padding: 50px 0;
+	}
+	.carousel 
+	{
+	    padding: 50px;
+	}
+	.carousel-inner 
+	{
+	    padding: 30px;
+	}
+}
